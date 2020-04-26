@@ -21,8 +21,14 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>self-bank</span>
+      <mat-button-toggle-group id="walletBnts">
+          <mat-button-toggle value="bold"><app-portis></app-portis></mat-button-toggle>
+          <mat-button-toggle value="bold">MetaMask</mat-button-toggle>
+          <mat-button-toggle value="bold">WalletConnect</mat-button-toggle>
+
+      </mat-button-toggle-group>
     </mat-toolbar>
-    <h2>bla bla</h2>
+    <app-main></app-main>
     <!-- Add Content Here -->
   </mat-sidenav-content>
 </mat-sidenav-container>
