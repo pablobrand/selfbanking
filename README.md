@@ -3,8 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
+Notes from Dev to Dev on this git reposority as of 4/26/2020:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` to run server, after navigating into frontend and running `ng build` which created the build folder for the front end that is referenced in the server.js file. Navigate to `http://localhost:8080/`. Note, the app does NOT automatically rebuild itself, if you want to work on the front without working with the backend, just do ng build on the frontend folder and run `ng serve` and work under `http://localhost:4200`.
 
 ## Code scaffolding
 
